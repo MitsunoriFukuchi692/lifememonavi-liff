@@ -41,7 +41,7 @@ export default function PlanPage() {
             <div className="text-5xl mb-3">⭐</div>
             <h2 className="text-2xl font-bold text-gray-800">プレミアムプラン</h2>
             <div className="mt-4">
-              <span className="text-4xl font-bold text-amber-500">¥980</span>
+              <span className="text-4xl font-bold text-amber-500">¥380</span>
               <span className="text-gray-400 text-sm"> / 月</span>
             </div>
             <p className="text-gray-400 text-xs mt-1">いつでもキャンセル可能</p>
@@ -71,7 +71,7 @@ export default function PlanPage() {
             disabled={loading || !profile}
             className="w-full bg-amber-400 hover:bg-amber-500 disabled:bg-gray-300 text-white font-bold py-4 rounded-2xl transition-all active:scale-95 shadow-md"
           >
-            {loading ? "処理中..." : "⭐ 今すぐ始める（月額¥980）"}
+            {loading ? "処理中..." : "⭐ 今すぐ始める（月額¥380）"}
           </button>
           <p className="text-center text-xs text-gray-400 mt-3">
             クレジットカードで安全に決済（Stripe）
